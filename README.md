@@ -231,15 +231,15 @@ Per-class breakdown (test set, 140 images each):
 
 **Grad-CAM** — coarse heatmap highlighting the broad region deemed most important:
 
-![Grad-CAM overlay](output/gradcam/spiral/154505.jpg)
+![Grad-CAM overlay](outputs/gradcam/spiral/154505.jpg)
 
 **LIME** — superpixel segmentation identifying locally influential regions:
 
-![LIME segmentation](output/lime/spiral/154505.jpg)
+![LIME segmentation](outputs/lime/spiral/154505.jpg)
 
 **DeepSHAP** — pixel-level attribution map showing positive and negative contributions:
 
-![DeepSHAP overlay](output/deepshap/spiral/154505.jpg)
+![DeepSHAP overlay](outputs/deepshap/spiral/154505.jpg)
 
 ---
 
