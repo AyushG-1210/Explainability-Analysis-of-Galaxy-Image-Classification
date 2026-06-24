@@ -2,7 +2,7 @@
 
 A PyTorch implementation comparing three prominent Explainable AI (XAI) methods — **Grad-CAM**, **LIME**, and **DeepSHAP** — applied to a fine-tuned ResNet-18 model for four-class galaxy morphology classification. The study quantitatively evaluates each method on computational efficiency and explanation fidelity, providing a framework for selecting appropriate XAI tools in scientific applications.
 
-Full analysis is documented in the accompanying paper: *"Evaluating the Trade-Offs of Explainable AI for Galaxy Classification"*.
+Full analysis is documented in the accompanying paper: [Evaluating the Trade-Offs of Explainable AI for Galaxy Classification](paper/Evaluating%20the%20Trade-Offs%20of%20Explainable.pdf)
 
 ---
 
@@ -60,6 +60,8 @@ Github/
 │       ├── elliptical/
 │       ├── spiral/
 │       └── other/
+├── paper/
+|   └── Evaluating the Trade-Offs of Explainable.pdf
 ├── main.ipynb            # Full pipeline: training, XAI generation, metrics
 └── README.md
 ```
